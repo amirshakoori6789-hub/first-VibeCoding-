@@ -1,0 +1,22 @@
+{
+  "name": "SiteSetting",
+  "type": "object",
+  "properties": {
+    "key": {
+      "type": "string",
+      "description": "Setting key identifier"
+    },
+    "value": {
+      "type": "string",
+      "description": "Setting value"
+    },
+    "enabled": {
+      "type": "boolean",
+      "default": true,
+      "description": "Whether this setting is active"
+    }
+  },
+  "required": [
+    "key"
+  ]
+}

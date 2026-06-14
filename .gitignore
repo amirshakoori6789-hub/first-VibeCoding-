@@ -1,0 +1,22 @@
+# Node
+node_modules/
+dist/
+
+# اطلاعات حساس
+backend/src/db.php
+backend/config/db.php
+
+# فایل‌های آپلودی
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# لاگ‌ها
+error_log
+*.log
+
+# سیستم عامل
+.DS_Store
+Thumbs.db
+
+# زیپ‌ها
+*.zip
